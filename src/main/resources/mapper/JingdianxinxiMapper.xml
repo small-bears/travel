@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.spring.dao.JingdianxinxiMapper">
+    <resultMap id="BaseResultMap" type="com.spring.entity.Jingdianxinxi">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+                            <result column="jingdianbianhao" property="jingdianbianhao" jdbcType="VARCHAR"/>
+                                    <result column="jingdianmingcheng" property="jingdianmingcheng" jdbcType="VARCHAR"/>
+                                    <result column="suoshudiqu" property="suoshudiqu" jdbcType="VARCHAR"/>
+                                    <result column="tupian" property="tupian" jdbcType="VARCHAR"/>
+                                    <result column="kaifangshijian" property="kaifangshijian" jdbcType="VARCHAR"/>
+                                    <result column="fujinmeishi" property="fujinmeishi" jdbcType="VARCHAR"/>
+                                    <result column="dizhi" property="dizhi" jdbcType="VARCHAR"/>
+                                    <result column="piaojia" property="piaojia" jdbcType="DECIMAL"/>
+                                    <result column="liulanliang" property="liulanliang" jdbcType="INTEGER"/>
+                                    <result column="miaoshu" property="miaoshu" jdbcType="VARCHAR"/>
+                                    <result column="addtime" property="addtime" jdbcType="VARCHAR"/>
+                                
+    </resultMap>
+    <sql id="Base_Column_List">
+        id, jingdianbianhao, jingdianmingcheng, suoshudiqu, tupian, kaifangshijian, fujinmeishi, dizhi, piaojia, liulanliang, miaoshu, addtime    </sql>
+    </mapper>

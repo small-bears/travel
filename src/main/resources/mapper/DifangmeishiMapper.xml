@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.spring.dao.DifangmeishiMapper">
+    <resultMap id="BaseResultMap" type="com.spring.entity.Difangmeishi">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+                            <result column="meishibianhao" property="meishibianhao" jdbcType="VARCHAR"/>
+                                    <result column="mingcheng" property="mingcheng" jdbcType="VARCHAR"/>
+                                    <result column="fujinjingdian" property="fujinjingdian" jdbcType="VARCHAR"/>
+                                    <result column="fenlei" property="fenlei" jdbcType="VARCHAR"/>
+                                    <result column="tupian" property="tupian" jdbcType="VARCHAR"/>
+                                    <result column="jiage" property="jiage" jdbcType="DECIMAL"/>
+                                    <result column="meishijianjie" property="meishijianjie" jdbcType="VARCHAR"/>
+                                    <result column="addtime" property="addtime" jdbcType="VARCHAR"/>
+                                
+    </resultMap>
+    <sql id="Base_Column_List">
+        id, meishibianhao, mingcheng, fujinjingdian, fenlei, tupian, jiage, meishijianjie, addtime    </sql>
+    </mapper>
