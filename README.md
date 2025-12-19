@@ -1,6 +1,6 @@
-## 一、获取地址:
+#### 一、获取地址:
 
-#### 项目获取地址：https://www.666bear.com/3327.html
+#### 项目获取地址：https://www.666bear.com/12173.html
 
 **博主介绍：✌全网粉丝20W+,csdn特邀作者、Java领域优质创作者、csdn/掘金/哔哩哔哩/知乎/道客/小红书等平台优质作者，计算机毕设实战导师，目前专注于大学生项目实战开发,讲解,毕业答疑辅导✌工作室接计算机毕业设计程序开发、论文代写、代码讲解、出售成品源码等毕设服务，专业靠谱~**
 
@@ -14,30 +14,54 @@
 
 #### 所有项目以及源代码本人均调试运行无问题 可支持远程调试运行
 
-# travel
-基于SpringBoot+vue旅游系统
 
-## 一、项目简介
-系统分为前台跟后台两个项目 前台： 展示旅游新闻、景区信息、美食信息、旅游线路、在线留言
+#### 二、项目演示地址：
 
-后台管理员： 账号管理、地区管理、景点信息管理、地方美食管理、旅游线路管理、订单信息管理、新闻管理、系统管理 普通用户：旅游线路、订单信息
+https://www.bilibili.com/video/BV1KpCeBmEkz/?spm_id_from=333.1387.upload.video_card.click&vd_source=e51e8ec2fb03314ad9fa517492a2ce94
+
+#### 三、 项目介绍
+
+基于SpringBoot的旅游服务网站的设计与实现,
+
+包含前台用户模块与后台管理员模块，具体功能如下：
+1. 前台用户模块
+基础功能模块：首页、旅游景点、美食信息、酒店客房、演出活动、旅游路线、旅游攻略、公告信息、旅游资讯（个人中心功能未展开，通常包含账户管理、订单管理等）
+2. 后台管理员模块
+全流程管理功能：系统首页、个人中心、用户管理、景点类型管理、旅游景点管理、门票预订管理、门票退订管理、美食类型管理、美食信息管理、美食预订管理、美食退订管理、酒店类型管理、酒店客房管理、酒店预订管理、酒店退订管理、演出类型管理、演出活动管理、演出订票管理、演出退票管理、旅游路线管理、旅游攻略管理、公告信息管理、系统管理
+该网站聚焦旅游服务场景，通过前台用户获取旅游相关信息（景点、美食、酒店等），后台管理员统筹各类旅游资源与预订业务，实现旅游服务从信息展示到预订退订的全流程数字化，为用户提供一站式旅游信息与服务支持。
+
+#### 四、项目技术
+
+是否前后端分离项目：是
+
+后端： SpringBoot+Mybatis-Plus
+
+前端：Vue + Vue Router + ELementUI + Axios
+
+#### 五、 运行环境
+
+开发语言：Java
+
+项目架构：B/S架构
+
+开发工具：IDEA，Eclipse,Myeclipse都可以。推荐IDEA
+
+JDK版本：1.8
+
+数据库: MySQL5.7
+
+Tomcat环境：Tomcat 7.x,8.x,9.x版本均可
+
+项目管理：Maven
 
 
 
-## 二、 视频演示
+#### 六、安装教程
 
-<p style="text-align: center;"><strong><span class="ne-text">建议点击这个</span><a style="color: #ff0000;" href="https://www.bilibili.com/video/BV1gG4y1Q7i1/?spm_id_from=333.999.0.0&vd_source=b5789de9f485ad6d0cfaeca1ad4b230c">“链接”</a>查看高清视频</strong></p>
-## 三、技术实现
-后端框架：Springboot、MybatisPlus ​
+1.使用Navicat或者其它工具，在mysql中创建对应名称的数据库，并导入数据库脚本里面的sql文件.
 
-前端技术：ElementUI、vue、css、JavaScript、axios
+2.使用IDEA/Eclipse/MyEclipse导入项目，Ecipse/MyEclipse导入时
 
-## 四、运行截图
+3.将项目中config.properties中的数据库配置改为自己的配置
 
-
-![1](https://user-images.githubusercontent.com/124327024/234500492-7540248e-fc7a-45c8-98d3-2941704953bd.jpg)
-![2](https://user-images.githubusercontent.com/124327024/234500514-db0481f8-c487-4170-bc8e-9cb3f1370fee.jpg)
-![3](https://user-images.githubusercontent.com/124327024/234500612-a25f17c5-699b-4741-8aad-1678d6169c10.jpg)
-![4](https://user-images.githubusercontent.com/124327024/234500619-2b1d1ffc-c4e0-43f9-9725-3967e1f211d1.jpg)
-![5](https://user-images.githubusercontent.com/124327024/234500624-07686270-4777-4422-ab51-889e27fea188.jpg)
-![7](https://user-images.githubusercontent.com/124327024/234500648-47950903-0731-4a96-8033-56a688d7cda0.jpg)
+4.启动项目
